@@ -8,11 +8,12 @@ export const Container = styled.div`
   left: 50%;
   transform: translate(-50%, -50%);
   top: 50%;
-  font-size: 30px;
+  font-size: 2.5rem;
   box-shadow: 0px 0px 15px 5px rgba(97, 97, 97, 1);
 
   @media (max-width: 450px) {
     width: 75%;
+    font-size: 1.5rem;
   }
 
   @media (min-width: 760px) and (max-width: 1100px) {
@@ -82,11 +83,11 @@ export const Operation = styled.span`
   color: #4b4b4b;
 
   @media (max-width: 450px) and (max-width: 760px) {
-    font-size: 25px;
+    font-size: 1rem;
   }
 `;
 export const Result = styled.span`
-  font-size: 50px;
+  font-size: 3.1rem;
   top: 10%;
   right: 10%;
   text-align: right;
